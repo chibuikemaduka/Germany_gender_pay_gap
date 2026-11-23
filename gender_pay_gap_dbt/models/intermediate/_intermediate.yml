@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: int_industry_pay_gap
+    description: "Individual industry gender pay gap observations for Germany, excluding broad economic aggregates."
+
+    columns:
+      - name: country
+        data_tests:
+          - not_null
+
+      - name: industry
+        data_tests:
+          - not_null
+
+      - name: year
+        data_tests:
+          - not_null
+
+      - name: gender_pay_gap_percent
+        data_tests:
+          - not_null

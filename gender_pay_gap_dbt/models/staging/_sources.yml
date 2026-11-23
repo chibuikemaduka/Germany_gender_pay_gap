@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: eurostat
+    schema: public
+    description: "Raw Eurostat gender pay gap data for Germany"
+
+    tables:
+      - name: raw_gender_pay_gap
+        description: "Raw gender pay gap observations stored in PostgreSQL"
+
+        columns:
+          - name: frequency
+            data_tests:
+              - not_null
+
+          - name: unit
+            data_tests:
+              - not_null
+
+          - name: industry
+            data_tests:
+              - not_null
+
+          - name: country
+            data_tests:
+              - not_null
+
+          - name: year
+            data_tests:
+              - not_null
+
+          - name: gender_pay_gap_percent
+            data_tests:
+              - not_null
+

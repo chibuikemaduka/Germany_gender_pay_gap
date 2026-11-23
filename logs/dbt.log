@@ -1,0 +1,94 @@
+[0m10:55:17.683293 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b94d550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d26e710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d26e990>]}
+
+
+============================== 10:55:17.687339 | 6abde935-e855-4c5a-8d68-046c349d087d ==============================
+[0m10:55:17.687339 [info ] [MainThread]: Running with dbt=1.12.0
+[0m10:55:17.687711 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'log_cache_events': 'False', 'empty': 'None', 'no_print': 'None', 'printer_width': '80', 'log_format': 'default', 'write_json': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'hints_enabled': 'True', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'quiet': 'False', 'cache_selected_only': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'introspect': 'True', 'profiles_dir': '/Users/chibuikemaduka/.dbt', 'version_check': 'True', 'use_experimental_parser': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'indirect_selection': 'eager', 'invocation_command': 'dbt init gender_pay_gap_dbt'}
+[0m10:55:17.703791 [info ] [MainThread]: Creating dbt configuration folder at /Users/chibuikemaduka/.dbt
+[0m10:55:17.705529 [debug] [MainThread]: Starter project path: /Users/chibuikemaduka/Documents/Data Analytics_neuefische/Capstone_Final Project/Germany_gender_pay_gap/.venv_dbt/lib/python3.14/site-packages/dbt/include/starter_project
+[0m10:55:17.713715 [info ] [MainThread]: Setting up your profile.
+[0m11:07:11.690017 [info ] [MainThread]: Profile gender_pay_gap_dbt written to /Users/chibuikemaduka/.dbt/profiles.yml using target's profile_template.yml and your supplied values.
+[0m11:07:11.700583 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m11:07:11.702410 [info ] [MainThread]: dbt version: 1.12.0
+[0m11:07:11.702742 [info ] [MainThread]: python version: 3.14.6
+[0m11:07:11.703009 [info ] [MainThread]: python path: /Users/chibuikemaduka/Documents/Data Analytics_neuefische/Capstone_Final Project/Germany_gender_pay_gap/.venv_dbt/bin/python
+[0m11:07:11.703299 [info ] [MainThread]: os info: macOS-27.2-arm64-arm-64bit-Mach-O
+[0m11:07:11.732805 [info ] [MainThread]: Using profiles dir at /Users/chibuikemaduka/.dbt
+[0m11:07:11.733163 [info ] [MainThread]: Using profiles.yml file at /Users/chibuikemaduka/.dbt/profiles.yml
+[0m11:07:11.733352 [info ] [MainThread]: Using dbt_project.yml file at /Users/chibuikemaduka/Documents/Data Analytics_neuefische/Capstone_Final Project/Germany_gender_pay_gap/gender_pay_gap_dbt/dbt_project.yml
+[0m11:07:11.734644 [info ] [MainThread]: adapter type: postgres
+[0m11:07:11.734940 [info ] [MainThread]: adapter version: 1.11.0
+[0m11:07:11.794143 [info ] [MainThread]: Configuration:
+[0m11:07:11.794476 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:07:11.794628 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m11:07:11.794767 [info ] [MainThread]: Required dependencies:
+[0m11:07:11.795066 [debug] [MainThread]: Executing "git --help"
+[0m11:07:11.825121 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:07:11.825783 [debug] [MainThread]: STDERR: "b''"
+[0m11:07:11.825991 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:07:11.826165 [info ] [MainThread]: Connection:
+[0m11:07:11.826344 [info ] [MainThread]:   host: localhost
+[0m11:07:11.826485 [info ] [MainThread]:   port: 5432
+[0m11:07:11.826605 [info ] [MainThread]:   user: chibuikemaduka
+[0m11:07:11.826725 [info ] [MainThread]:   database: gender_pay_gap
+[0m11:07:11.826841 [info ] [MainThread]:   schema: public
+[0m11:07:11.826955 [info ] [MainThread]:   connect_timeout: 10
+[0m11:07:11.827078 [info ] [MainThread]:   role: None
+[0m11:07:11.827187 [info ] [MainThread]:   search_path: None
+[0m11:07:11.827297 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:07:11.827404 [info ] [MainThread]:   sslmode: None
+[0m11:07:11.827511 [info ] [MainThread]:   sslcert: None
+[0m11:07:11.827619 [info ] [MainThread]:   sslkey: None
+[0m11:07:11.827726 [info ] [MainThread]:   sslrootcert: None
+[0m11:07:11.827834 [info ] [MainThread]:   application_name: dbt
+[0m11:07:11.827946 [info ] [MainThread]:   autocommit: False
+[0m11:07:11.828055 [info ] [MainThread]:   retries: 1
+[0m11:07:11.828585 [info ] [MainThread]: Registered adapter: postgres=1.11.0
+[0m11:07:11.943125 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:07:11.986488 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:07:11.986750 [debug] [MainThread]: On debug: select 1 as id
+[0m11:07:11.986911 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:07:12.128882 [debug] [MainThread]: SQL status: SELECT 1 in 0.142 seconds
+[0m11:07:12.129889 [debug] [MainThread]: On debug: Close
+[0m11:07:12.130197 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:07:12.130477 [info ] [MainThread]: [32mAll checks passed![0m
+[0m11:07:12.130916 [info ] [MainThread]: Your new dbt project "gender_pay_gap_dbt" was created!
+Initialized new project in /Users/chibuikemaduka/Documents/Data Analytics_neuefische/Capstone_Final Project/Germany_gender_pay_gap/gender_pay_gap_dbt/gender_pay_gap_dbt
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:07:12.155511 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 714.6101, "process_in_blocks": "0", "process_kernel_time": 0.318017, "process_mem_max_rss": "130531328", "process_out_blocks": "0", "process_user_time": 0.99641}
+[0m11:07:12.156103 [debug] [MainThread]: Command `dbt init` succeeded at 11:07:12.155978 after 714.61 seconds
+[0m11:07:12.156384 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:07:12.156703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d0a9f30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10da779b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e0456a0>]}
+[0m11:07:12.157072 [debug] [MainThread]: Flushing usage events
+[0m11:07:12.740683 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:36:17.734460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d115550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea7aad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea7ad50>]}
+
+
+============================== 16:36:17.738874 | f8182aa9-f7bd-4b55-a630-dc4aca512b94 ==============================
+[0m16:36:17.738874 [info ] [MainThread]: Running with dbt=1.12.0
+[0m16:36:17.739212 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'log_path': 'logs', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'warn_error': 'None', 'target_path': 'None', 'quiet': 'False', 'profiles_dir': '/Users/chibuikemaduka/.dbt', 'hints_enabled': 'True', 'write_json': 'True', 'invocation_command': 'dbt run --select int_industry_pay_gap', 'debug': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'maximum_seed_size_mib': '1', 'partial_parse': 'True', 'static_parser': 'True', 'log_cache_events': 'False', 'introspect': 'True', 'empty': 'False', 'no_print': 'None', 'use_colors': 'True'}
+[0m16:36:17.739561 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/chibuikemaduka/Documents/Data Analytics_neuefische/Capstone_Final Project/Germany_gender_pay_gap/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:36:17.757439 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.116717584, "process_in_blocks": "0", "process_kernel_time": 0.233724, "process_mem_max_rss": "130531328", "process_out_blocks": "0", "process_user_time": 0.806504}
+[0m16:36:17.757874 [debug] [MainThread]: Command `dbt run` failed at 16:36:17.757812 after 0.12 seconds
+[0m16:36:17.758175 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e87ba80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eb143b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eb20050>]}
+[0m16:36:17.758443 [debug] [MainThread]: Flushing usage events
+[0m16:36:18.369345 [debug] [MainThread]: An error was encountered while trying to flush usage events
